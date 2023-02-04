@@ -1,0 +1,84 @@
+void mcArm(int tx,int ty){
+glBegin(GL_TRIANGLES);
+	glTexCoord2d(tx+0.8992,ty+0.6016);
+	glVertex3f(-1,-1,5.6);
+	glTexCoord2d(tx+0.8992,ty+0.6328);
+	glVertex3f(1,-1,5.6);
+	glTexCoord2d(tx+0.868,ty+0.6328);
+	glVertex3f(1,0.999999,5.6);
+	glTexCoord2d(tx+0.868,ty+0.6328);
+	glVertex3f(1,0.999999,5.6);
+	glTexCoord2d(tx+0.868,ty+0.6016);
+	glVertex3f(-1,0.999999,5.6);
+	glTexCoord2d(tx+0.8992,ty+0.6016);
+	glVertex3f(-1,-1,5.6);
+	glTexCoord2d(tx+0.8977,ty+0.5672);
+	glVertex3f(-1,-1,-0);
+	glTexCoord2d(tx+0.868,ty+0.5672);
+	glVertex3f(-1,1,0);
+	glTexCoord2d(tx+0.868,ty+0.5984);
+	glVertex3f(1,1,0);
+	glTexCoord2d(tx+0.868,ty+0.5984);
+	glVertex3f(1,1,0);
+	glTexCoord2d(tx+0.8977,ty+0.5984);
+	glVertex3f(1,-1,-0);
+	glTexCoord2d(tx+0.8977,ty+0.5672);
+	glVertex3f(-1,-1,-0);
+	glTexCoord2d(tx+0.9992,ty+0.6344);
+	glVertex3f(-1,1,0);
+	glTexCoord2d(tx+0.9008,ty+0.6344);
+	glVertex3f(-1,0.999999,5.6);
+	glTexCoord2d(tx+0.9008,ty+0.6656);
+	glVertex3f(1,0.999999,5.6);
+	glTexCoord2d(tx+0.9008,ty+0.6656);
+	glVertex3f(1,0.999999,5.6);
+	glTexCoord2d(tx+0.9992,ty+0.6656);
+	glVertex3f(1,1,0);
+	glTexCoord2d(tx+0.9992,ty+0.6344);
+	glVertex3f(-1,1,0);
+	glTexCoord2d(tx+0.9992,ty+0.5688);
+	glVertex3f(1,-1,-0);
+	glTexCoord2d(tx+0.9008,ty+0.5688);
+	glVertex3f(1,-1,5.6);
+	glTexCoord2d(tx+0.9008,ty+0.6);
+	glVertex3f(-1,-1,5.6);
+	glTexCoord2d(tx+0.9008,ty+0.6);
+	glVertex3f(-1,-1,5.6);
+	glTexCoord2d(tx+0.9992,ty+0.6);
+	glVertex3f(-1,-1,-0);
+	glTexCoord2d(tx+0.9992,ty+0.5688);
+	glVertex3f(1,-1,-0);
+	glTexCoord2d(tx+0.9992,ty+0.6016);
+	glVertex3f(-1,-1,-0);
+	glTexCoord2d(tx+0.9008,ty+0.6016);
+	glVertex3f(-1,-1,5.6);
+	glTexCoord2d(tx+0.9008,ty+0.6328);
+	glVertex3f(-1,0.999999,5.6);
+	glTexCoord2d(tx+0.9008,ty+0.6328);
+	glVertex3f(-1,0.999999,5.6);
+	glTexCoord2d(tx+0.9992,ty+0.6328);
+	glVertex3f(-1,1,0);
+	glTexCoord2d(tx+0.9992,ty+0.6016);
+	glVertex3f(-1,-1,-0);
+	glTexCoord2d(tx+0.9992,ty+0.5344);
+	glVertex3f(1,1,0);
+	glTexCoord2d(tx+0.9008,ty+0.5344);
+	glVertex3f(1,0.999999,5.6);
+	glTexCoord2d(tx+0.9008,ty+0.5656);
+	glVertex3f(1,-1,5.6);
+	glTexCoord2d(tx+0.9008,ty+0.5656);
+	glVertex3f(1,-1,5.6);
+	glTexCoord2d(tx+0.9992,ty+0.5656);
+	glVertex3f(1,-1,-0);
+	glTexCoord2d(tx+0.9992,ty+0.5344);
+	glVertex3f(1,1,0);
+/* 
+ Obj2Head Tool written by: boniikawaiidesu (c) 2019 please DO NOT USE WITHOUT PERMISSION
+ or at least leave this comment on the model file 
+<this model was converted with Obj2Head by boniikawaiidesu
+ channel: https://www.youtube.com/c/BonniekawaiidesuOfficial>
+*/
+glEnd();
+}
+/* subscribe :D my channel :D also you are not allowed to share or sell the converter without my permission */
+/*converter made with C++ :3*/
